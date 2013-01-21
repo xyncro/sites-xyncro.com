@@ -3,4 +3,4 @@ layout: default
 title: Xyncro
 ---
 
-# Xyncro Site
+# Xyncro will be back soon...
