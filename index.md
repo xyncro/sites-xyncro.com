@@ -1,6 +1,6 @@
 ---
 layout: default
-title: Xyncro
+title: xyncro
 ---
 
-# Xyncro will be back soon...
+# xyncro will be back soon...
