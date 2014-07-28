@@ -1,4 +1,2 @@
-site
-====
-
-Public Site (xyncro.com)
+xyncro.github.io
+================
