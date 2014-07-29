@@ -30,8 +30,7 @@ header {
   header h2 {
     font-weight: 300; }
     header h2:before {
-      content: "\00a0";
-      whitespace: pre; }
+      content: "/"; }
 
 p {
   margin: 20px 0;
