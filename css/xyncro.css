@@ -1,35 +1,46 @@
 @import url(http://fonts.googleapis.com/css?family=Roboto:400,100,300,500);
 body {
-  color: #002244;
+  margin: 20px 0;
+  padding: 0;
+  background-color: #fafafa;
+  color: #222222;
   font-family: 'Roboto';
   margin: 100px auto;
   text-align: center;
-  padding: 0;
   width: 600px; }
 
 a {
   border-bottom: 1px dashed #002244;
-  color: #002244;
+  color: #222222;
   font-weight: 500;
   text-decoration: none; }
   a:hover {
-    border-bottom: 1px solid #002244; }
+    border-bottom: 1px solid #222222; }
 
-header h1 {
-  margin: 20px;
-  padding: 0;
-  font-size: 48px;
-  font-weight: 400;
-  text-transform: lowercase; }
+header {
+  text-transform: lowercase;
+  margin-bottom: 80px; }
+  header h1, header h2 {
+    margin: 20px 0;
+    padding: 0;
+    display: inline;
+    font-size: 36px; }
+  header h1 {
+    font-weight: 500; }
+  header h2 {
+    font-weight: 300; }
+    header h2:before {
+      content: "\00a0";
+      whitespace: pre; }
 
 p {
-  margin: 20px;
+  margin: 20px 0;
   padding: 0;
   font-size: 16px;
   font-weight: 300; }
 
 footer {
-  color: #cccccc;
+  color: #aaaaaa;
   font-size: 14px;
   font-weight: 300;
-  margin-top: 120px; }
+  margin-top: 80px; }

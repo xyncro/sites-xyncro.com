@@ -1,18 +1,22 @@
 @import url(http://fonts.googleapis.com/css?family=Roboto:400,100,300,500);
 
-$primary: #002244;
+$primary: #222;
+$secondary: #aaa;
+$background: #fafafa;
 
 @mixin space {
-  margin: 20px;
+  margin: 20px 0;
   padding: 0;
 }
 
 body {
+  @include space;
+
+  background-color: $background;
   color: $primary;
   font-family: 'Roboto';
   margin: 100px auto;
   text-align: center;
-  padding: 0;
   width: 600px;
 }
 
@@ -28,12 +32,27 @@ a {
 }
 
 header {
-  h1 {
+  text-transform: lowercase;
+  margin-bottom: 80px;
+
+  h1, h2 {
     @include space;
 
-    font-size: 48px;
-    font-weight: 400;
-    text-transform: lowercase;
+    display: inline;
+    font-size: 36px;
+  }
+
+  h1 {
+    font-weight: 500;
+  }
+
+  h2 {
+    font-weight: 300;
+  
+    &:before {
+      content: "\00a0";
+      whitespace: pre;
+    }
   }
 }
 
@@ -45,9 +64,9 @@ p {
 }
 
 footer {
-  color: #cccccc;
+  color: $secondary;
   font-size: 14px;
   font-weight: 300;
-  margin-top: 120px;
+  margin-top: 80px;
 }
 
